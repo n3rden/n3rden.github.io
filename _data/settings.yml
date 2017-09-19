@@ -1,0 +1,31 @@
+title:  "Vaines.org"
+tagline: "Pissing-about as a Service"
+description:
+author:
+  name: "Aiden Vaines"
+  twitter: n3rden
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'millennial-3'
+
+menu:
+#- {name: 'Interesting Facts', file: 'facts.html'}
+#- {name: 'Learning Resources', file: 'resources.html'}
+#- {name: 'Sample Posts', file: 'sample-posts.html'}
+#- {name: 'Documentation', file: 'documentation.html'}
+- {name: 'Powershell', file: 'powershell.html'}
+- {name: 'VMWare', file: 'vmware.html'}
+#- {name: 'About', file: 'about.html'}
+#- {name: 'Curriculum Vitae', file: 'cv.html'}
+#- {name: 'Contact', file: 'contact.html'}
+
+social:
+- {icon: 'twitter', link: 'https://twitter.com/n3rden'}
+- {icon: 'facebook', link: 'https://www.facebook.com/aiden.vaines'}
+- {icon: 'instagram', link: 'https://instagram.com/aiden.vaines'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/aidenvaines'}
+- {icon: 'envelope', link: 'mailto:aiden@vaines.org'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
