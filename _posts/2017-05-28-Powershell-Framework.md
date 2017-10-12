@@ -2,7 +2,7 @@
 layout: post
 title: "PowerShell Framework"
 downloadname: "Powershell-Template"
-downloadlink: "https://github.com/n3rden/Powershell-Template/tree/master/New-ScriptTemplate"
+downloadlink: "https://github.com/n3rden/Powershell-Template
 author: "Aiden Vaines"
 categories: powershell
 tags: [powershell, script, lab]
