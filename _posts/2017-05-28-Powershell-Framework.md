@@ -32,19 +32,24 @@ image:
   <span style="color: black;">Structure for the framework looks like this:<br /> 
   <img src="/assets/img/psh-framework-structure.png" alt="" data-recalc-dims="1" />
   <span style="color: black;"><br /> </span>
-</p>
 
-<span style="font-family: helvetica, arial, sans-serif; font-size: 12pt;"><img src="https://i2.wp.com/vaines.org/wp-content/uploads/2017/05/052817_1153_PowerShellF2.png?w=640" alt="" align="left" data-recalc-dims="1" /><span style="color: black;">I&#8217;ve tried to keep things separated so they are easy to locate, easy to modify and easy to follow.<br /> </span></span>
+I've tried to keep things separated so they are easy to locate, easy to modify and easy to follow.<br /> </span></span>
 
 <span style="color: black; font-family: helvetica, arial, sans-serif; font-size: 12pt;">The &#8220;Verb-Driver.ps1&#8221; file is the work-horse of the framework, this is the file you run to execute the script or schedule a task to run.<br /> </span>
 
 <span style="color: black; font-family: helvetica, arial, sans-serif; font-size: 12pt;">The driver will set up the script environment by calling functions or initializing things.<br /> </span>
 
+<img class="" src="/assets/img/psh-framework-flow.png" alt="" data-recalc-dims="1" />
+
 <span style="color: black; font-family: helvetica, arial, sans-serif; font-size: 12pt;">Firstly the config file will be loaded. The <em>Config.ps1</em> file by default contains the log folder, naming structure and file name format, it should also contain any variables which may be used every time the script is run.<br /> </span>
 
 <span style="color: black; font-family: helvetica, arial, sans-serif; font-size: 12pt;">This could be done with command line arguments, however if every time I run a script I have to enter a particular argument, that&#8217;s a waste of time. If the script runs as a scheduled task, it&#8217;ll be easier to update the config file than update the scheduled task.<br /> </span>
 
-<span style="color: black; font-family: helvetica, arial, sans-serif; font-size: 12pt;">Secondly the Logging module is loaded and initialised, this will trigger the log folder to be created and a log file to be created. If the folder and log file already exist the log file will be appended.<br /> </span><img class="" src="/assets/img/psh-framework-flow.png"" alt="" data-recalc-dims="1" />
+<span style="color: black; font-family: helvetica, arial, sans-serif; font-size: 12pt;">Secondly the Logging module is loaded and initialised, this will trigger the log folder to be created and a log file to be created. If the folder and log file already exist the log file will be appended.<br /> </span>
+
+</div>
+
+
 
 <span style="color: black; font-family: helvetica, arial, sans-serif; font-size: 12pt;">Next, any other modules should be loaded (in the template&#8217;s default state the &#8220;Sample-Functions.ps1&#8221;).<br /> </span>
 
