@@ -7,7 +7,7 @@ author:
 
 # Change to true for Disqus comments
 disqus:
-  comments: falss
+  comments: false
   disqus_shortname: 'millennial-3'
 
 menu:
