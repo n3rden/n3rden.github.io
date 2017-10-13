@@ -16,6 +16,7 @@ menu:
 #- {name: 'Sample Posts', file: 'sample-posts.html'}
 #- {name: 'Documentation', file: 'documentation.html'}
 - {name: 'Powershell', file: 'powershell.html'}
+- {name: 'Powershell Template', file: 'powershell-template.html'}
 - {name: 'VMWare', file: 'vmware.html'}
 #- {name: 'About', file: 'about.html'}
 #- {name: 'Curriculum Vitae', file: 'cv.html'}

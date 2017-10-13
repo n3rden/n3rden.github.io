@@ -4,7 +4,7 @@ title: "Template Module | Connect-AD"
 downloadname: "Template module | Connect-AD"
 downloadlink: "https://github.com/n3rden/Powershell-Template-Modules/tree/master/Connect-AD"
 author: "Aiden Vaines"
-categories: powershell
+categories: [powershell, pstemplate]
 tags: [powershell, script, pstemplate, module]
 image:
   feature: psh-tmp-adconnect.jpeg

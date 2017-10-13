@@ -4,8 +4,8 @@ title: "PowerShell Framework"
 downloadname: "Powershell-Template"
 downloadlink: "https://github.com/n3rden/Powershell-Template"
 author: "Aiden Vaines"
-categories: powershell
-tags: [powershell, script, lab]
+categories: [powershell, pstemplate]
+tags: [powershell, script, lab, pstemplate]
 image:
   feature: psh-framework.png
 ---
