@@ -26,8 +26,6 @@ This script simply puts some belts and braces around importing the ActiveDirecto
 The script will check for an RSAT installation
 
 
-{% mermaid %}
-
 graph LR
     A{ActiveDirectory Imported?}
         A -->|Yes| C[Done]
@@ -37,7 +35,7 @@ graph LR
                 F -->|Success|G[Done]
                 F-->|Fail|H[Abort script]
            I --> H
-{% endmermaid %}
+
 
 The logs produced should look like this
 ```
