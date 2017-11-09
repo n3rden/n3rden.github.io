@@ -14,8 +14,6 @@ Sometime it's nessessary to email an individual about multiple people. Sometimes
 
 I needed a way to email managers about staff in their team who were recieving new equipment. As this was multiple people in multiple teams with multiple managers it was a bit out of the scope of what mailmerge is designed to handle.
 
-I put something quick together to take away the manual necessities of such a task. This *finished* script uses my [powershell framework](http://vaines.org/powershell/pstemplate/Powershell-Framework.html) as a base.
-
 The script takes a "source.csv" layed out like this:
 
 | ID | Name | Device | ManagerID | ManagerName | ManagerEmail |
