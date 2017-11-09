@@ -2,7 +2,7 @@
 layout: post
 title: "Many to one mailmerge | Manager mail merge"
 downloadname: "Start-ManagerMailMerge"
-downloadlink: "https://github.com/n3rden/Start-ManagerMailMerge"
+downloadlink: "https://github.com/n3rden/Random-Powershell-Scripts/tree/master/Start-ManagerMailMerge"
 author: "Aiden Vaines"
 categories: powershell
 tags: [powershell, script]

@@ -2,7 +2,7 @@
 layout: post
 title: "Script to flash populate an Active Directory lab!"
 downloadname: "Start-LabADPopulate"
-downloadlink: "https://github.com/n3rden/Random-Powershell-Scripts/tree/master/Microsoft/Start-LabADPopulate"
+downloadlink: "https://github.com/n3rden/Random-Powershell-Scripts/tree/master/Start-LabADPopulate"
 author: "Aiden Vaines"
 categories: powershell
 tags: [powershell, script, lab]
@@ -25,8 +25,6 @@ This script will create users with the following attributes:
 * **Job Title** – Similar to departments, each department often has multiple roles, this script records what job roles exist in each department and assigns a random one to the user
 * **Manager** – People have managers. After creating the user accounts, the script will assign each user a manager from their department and company (A “Manager” does have to be a valid job role in the department the user is assigned to for this to work)
 * **EmployeeNumber** – Some organisations assign an ID number to users, this is especially helpful when people have non-alphanumeric characters in their name
-
-[Clone this project here](https://github.com/n3rden/Random-Powershell-Scripts/tree/master/Microsoft/Start-LabADPopulate)
 
 
 # Setup
