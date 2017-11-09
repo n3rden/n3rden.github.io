@@ -17,19 +17,19 @@ I needed a way to email managers about staff in their team who were recieving ne
 I put something quick together to take away the manual necessities of such a task. This *finished* script uses my [powershell framework](http://vaines.org/powershell/pstemplate/Powershell-Framework.html) as a base.
 
 The script takes a "source.csv" layed out like this:
-|ID|Name|Device|ManagerID|ManagerName|ManagerEmail|
-|--|---|----|-----|-----|----|
-|1001|Joe Bloggs|iPhone 6|2001|A|A@domain.com|
-|1002|Steve Jones|iPhone 5|2001|A|A@domain.com|
-|1003|Dan Smith|iPhone 6|2002|B|b@domain.com|
+
+| ID | Name | Device | ManagerID | ManagerName | ManagerEmail |
+|---|:---|:---|:---|:---|:---|
+| 1001 | Joe Bloggs | iPhone 6 | 2001 | A | A@domain.com |
+| 1002 | Steve Jones | iPhone 5 | 2001 | A | A@domain.com |
+| 1003 | Dan Smith | iPhone 6 | 2002 | B | b@domain.com |
+
 
 For each unique manager in this list ("A" and "B") a new email will be created based on an html template "_template.htm". addressed to the manager and containing a formatted table with their staff.
-<managermailmerge_1.PNG>
+
+![screenshot1]({{"/assets/img/managermailmerge_1.PNG"}})
 
 Using the table above, manager "A" will recieve and email about employees 1001 & 1002, and manager "B" about employee 1003. 
-
-[Clone this project here](https://github.com/n3rden/Start-ManagerMailMerge)
-
 
 
 # Setup

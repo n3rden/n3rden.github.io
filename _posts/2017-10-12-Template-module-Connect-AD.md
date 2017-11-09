@@ -25,18 +25,8 @@ This script simply puts some belts and braces around importing the ActiveDirecto
 # How does it work?
 The script will check for an RSAT installation
 
+![Flow]({{"/assets/img/psh-tmp-adconnect-flow.PNG"}})
 
-
-
-graph LR
-    A{ActiveDirectory Imported?}
-        A -->|Yes| C[Done]
-        A -->|No| D{Is RSAT Installed?}
-            D-->|Yes| F[Try Import Module]
-            D -->|No| I[!error, RSAT not installed]
-                F -->|Success|G[Done]
-                F-->|Fail|H[Abort script]
-           I --> H
 
 The logs produced should look like this
 ```
