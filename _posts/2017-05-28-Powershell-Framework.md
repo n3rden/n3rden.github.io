@@ -24,7 +24,7 @@ To start off I asked myself what I want;
   
   4 **Consistency**: Scripts I have written two weeks ago can be difficult follow, one I wrote last year will be unrecognisable. Structure and framework will be important, I should be able to pick up any script and be able to roughly follow it because they all look and feel the same.
 
- ## Structure
+## Structure
  ![Folders]({{"/assets/img/psh-framework-structure.png"}})
 
 I've tried to keep things separated so they are easy to locate, easy to modify and easy to follow.
