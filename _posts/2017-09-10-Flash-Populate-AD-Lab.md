@@ -1,18 +1,18 @@
 ---
-layout: post
 title: "Script to flash populate an Active Directory lab!"
-downloadname: "Start-LabADPopulate"
-downloadlink: "https://github.com/n3rden/Random-Powershell-Scripts/tree/master/Start-LabADPopulate"
-author: "Aiden Vaines"
-categories: powershell
-tags: [powershell, script, lab]
-image:
-  feature: psh-adpopulate.jpeg
+categories: 
+    - powershell
+tags: 
+    - powershell
+    - script
+    - lab
+download_link: "https://github.com/n3rden/Random-Powershell-Scripts/tree/master/Start-LabADPopulate"
 ---
 
-
-
 When you need to test Active Directory in a lab with sample users, creating sufficiently realistic test accounts is a time consuming and tedious process. There are a few quick scripts for creating something similar but many of them only create basic users which don’t emulate a production environment very well.
+
+[Follow this project on GitHub]({{ page.download_link }})
+
 
 This script will create users with the following attributes:
 
@@ -76,9 +76,6 @@ LAB.local
         $UsersFile = ".\FakeUserData.csv"
         ```
 
-[Clone this project here](https://github.com/n3rden/Random-Powershell-Scripts/tree/master/Microsoft/Start-LabADPopulate)
-
-
 # How does it work?
 The script will create a user account for each user in the “FakeUserData.csv” file with the following information:
 * **SAMAccount Name** – A unique ID number authenticate a user
@@ -105,9 +102,6 @@ to something like this:
 ```$NewUsername = $User.givenname + "." + $User.Surname
 New-AdUser -SamAccountName $NewUsername -Name $UserFullName -Path $UserOUPath -AccountPassword $UserPassword -Enabled $True `
 ```
-
-[Clone this project here](https://github.com/n3rden/Random-Powershell-Scripts/tree/master/Microsoft/Start-LabADPopulate)
-
 
 # Credit
 The information stored in “FakeUserData.csv” was provided by [fakenamegenerator.com](https://www.fakenamegenerator.com/) and contains around 600 random users doted around Europe in the following countries:

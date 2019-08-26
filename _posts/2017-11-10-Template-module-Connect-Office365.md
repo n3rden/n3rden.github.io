@@ -1,16 +1,16 @@
 ---
-layout: post
-title: "Template Module | Connect-Office365"
-downloadname: "Template module | Connect-Office365"
+title: "Module: Connect-Office365"
 downloadlink: "https://github.com/n3rden/Powershell-Template-Modules/tree/master/Connect-Office365"
-author: "Aiden Vaines"
-categories: [powershell, pstemplate]
-tags: [powershell, script, pstemplate, module]
-image:
-  feature: psh-tmp-connecto365.jpeg
+categories: 
+  - powershell
+  - psh-template
 ---
 
 One of the most common things I use Powershell for is Office 356, this requires the modules be installed and connecting to one of the Office365 sessions, Skype, Exchange or the Security & Compliance center.
+
+[Follow this project on GitHub]({{ page.download_link }})
+
+
 
 It's a fairly common process but including it in a script that is portable and performs envirnmental checks before running can be a bit of a pain. Having this log to file and be consistent in any script with Office 365 interaction is very useful to me
 

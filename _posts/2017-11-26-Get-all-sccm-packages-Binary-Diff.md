@@ -1,15 +1,16 @@
 ---
-layout: post
 title: "Script to get the binary differential replication status of all sccm packages"
-author: "Aiden Vaines"
-categories: [powershell, sccm]
-tags: [powershell, sccm]
-image:
-  feature: sccm-bdr.jpg
+categories: 
+    - powershell
+    - sccm
 ---
 
 # Problem
 An SCCM Environment I was looking at had a few hundred application packages. I needed to find out which were enabled for “Binary Differential Replication” to get to the bottom of some bandwidth issues that didn’t add up.
+
+[Follow this project on GitHub]({{ page.download_link }})
+
+
 
 This option is set under “Data Source”
 

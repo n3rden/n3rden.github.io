@@ -1,18 +1,19 @@
 ---
-layout: post
 title: "PowerShell Framework"
-downloadname: "Powershell-Template"
 downloadlink: "https://github.com/n3rden/Powershell-Template"
-author: "Aiden Vaines"
-categories: [powershell, pstemplate]
-tags: [powershell, script, lab, pstemplate]
-image:
-  feature: psh-framework.png
+categories: 
+  - powershell
+  - psh-template
+
 ---
 
 Writing code that can be maintained by multiple people always requires some sort of structure. A lot of the frameworks I have seen are overly complicated for what is still essentially quite small scripts. So I decided to build my own
 
 My requirements were for a small, extensible framework I can use for quick scripts, everything I found online was overly complicated. All I needed was a simple framework so all my scripts are a similar format, work in a similar way, can be moved around without too much fuss and can be easily debugged by someone else should they have issues.
+
+[Follow this project on GitHub]({{ page.download_link }})
+
+
 
 To start off I asked myself what I want;
 
