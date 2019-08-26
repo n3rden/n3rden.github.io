@@ -1,18 +1,17 @@
 ---
-layout: post
-title: "Many to one mailmerge | Manager mail merge"
-downloadname: "Start-ManagerMailMerge"
+title: "Many to one mailmerge aka Manager mail merge"
 downloadlink: "https://github.com/n3rden/Random-Powershell-Scripts/tree/master/Start-ManagerMailMerge"
-author: "Aiden Vaines"
-categories: powershell
-tags: [powershell, script]
-image:
-  feature: psh-managermailmerge.jpg
+categories: 
+  - powershell
 ---
 
 Sometime it's nessessary to email an individual about multiple people. Sometimes, its nessessary to email loads of people about loads of people.
 
 I needed a way to email managers about staff in their team who were recieving new equipment. As this was multiple people in multiple teams with multiple managers it was a bit out of the scope of what mailmerge is designed to handle.
+
+[Follow this project on GitHub]({{ page.download_link }})
+
+
 
 The script takes a "source.csv" layed out like this:
 

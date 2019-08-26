@@ -1,15 +1,16 @@
 ---
-layout: post
 title: "Script to get PkgFlag status values for all SCCM packages"
-author: "Aiden Vaines"
-categories: [powershell, sccm]
-tags: [powershell, sccm]
-image:
-  feature: sccm-pkgflags.jpg
+categories: 
+  - powershell
+  - sccm
 ---
 
 # Problem
 As an extension of the [script to get the binary differential replication status of all sccm packages,]({{ site.github.url }}/powershell/sccm/Get-all-sccm-packages-Binary-Diff.html) when looking for the Binary Differential Replication flag being checked, I thought it would be worth looking for the other values that make up the PkgFlags attribute.
+
+[Follow this project on GitHub]({{ page.download_link }})
+
+
 
 Microsoft provided a list of these [here on MSDN](https://msdn.microsoft.com/library/hh469117.aspx).
 

@@ -1,0 +1,11 @@
+main:
+  # - title: "About"
+  #   url: /about/
+  - title: "All Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Powershell"
+    url: /powershell/
+  - title: "Powershell Template"
+    url: /psh-template/

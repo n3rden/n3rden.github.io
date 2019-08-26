@@ -1,15 +1,14 @@
 ---
-layout: post
-title: "Template Module | Connect-AD"
-downloadname: "Template module | Connect-AD"
+title: "Module: Connect-AD"
 downloadlink: "https://github.com/n3rden/Powershell-Template-Modules/tree/master/Connect-AD"
-author: "Aiden Vaines"
-categories: [powershell, pstemplate]
-tags: [powershell, script, pstemplate, module]
-image:
-  feature: psh-tmp-adconnect.jpeg
+categories:
+  - powershell
+  - psh-template
 ---
 One of the most common things I use Powershell for requires the ActiveDirectory module. In its self, this isnt an issue, I know I have it installed and that it will import automatically. The problem comes when sending or transfering the script to someone else.
+
+[Follow this project on GitHub]({{ page.download_link }})
+
 
 If the device running the script doesnt have some modules installed or available a script will fall-over.
 
