@@ -3,7 +3,6 @@ title: "Module: Connect-Office365"
 downloadlink: "https://github.com/n3rden/Powershell-Template-Modules/tree/master/Connect-Office365"
 categories: 
   - powershell
-  - psh-template
 ---
 
 One of the most common things I use Powershell for is Office 356, this requires the modules be installed and connecting to one of the Office365 sessions, Skype, Exchange or the Security & Compliance center.

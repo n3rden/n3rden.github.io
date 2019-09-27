@@ -3,7 +3,6 @@ title: "Module: Connect-AD"
 downloadlink: "https://github.com/n3rden/Powershell-Template-Modules/tree/master/Connect-AD"
 categories:
   - powershell
-  - psh-template
 ---
 One of the most common things I use Powershell for requires the ActiveDirectory module. In its self, this isnt an issue, I know I have it installed and that it will import automatically. The problem comes when sending or transfering the script to someone else.
 

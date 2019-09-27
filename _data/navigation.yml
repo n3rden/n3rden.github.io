@@ -7,5 +7,3 @@ main:
     url: /categories/
   - title: "Powershell"
     url: /powershell/
-  - title: "Powershell Template"
-    url: /psh-template/

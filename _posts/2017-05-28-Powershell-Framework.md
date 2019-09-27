@@ -3,7 +3,6 @@ title: "PowerShell Framework"
 downloadlink: "https://github.com/n3rden/Powershell-Template"
 categories: 
   - powershell
-  - psh-template
 
 ---
 
